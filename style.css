@@ -1,0 +1,98 @@
+
+.pagina{
+    display: flex;
+    gap: 16vw;
+    overflow: auto;
+}
+.pagina .esquerda{
+    display: grid;
+    place-items: center;
+    min-width: 60vw;
+    max-width: 70vw;
+    right: 10vw;
+  
+}
+.pagina .direita{
+    padding: 1.5vw;
+    background-color: rgb(178, 238, 218);
+    min-width: 20vw;
+    max-width: 30vw;
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.dados{
+    border-color: #1ebabf;
+    border-width: 0.3vw;
+    min-width: 30vw;
+    max-width: 40vw;
+    display: grid;
+    place-items: center;
+    padding: 2vw;
+    border-style: solid;
+    border-radius: 1vw;
+
+}
+h1{
+    font-family: sans-serif;
+    font-size: 3vw;
+    color: #084453;
+}
+h2{
+    font-family: sans-serif;
+    font-size: 2vw; 
+    color: #052a5a;
+}
+p{
+    font-family: sans-serif;
+    font-size: 1.3vw;
+    line-height: 1.7vw;
+    text-align: justify;
+    margin-right: 1.6vw;
+    color: #0d4c5f;
+}
+input{
+    border-radius: 1.4vw;
+    border-width: 0.1vw;
+    border-style: solid;
+    border-color: #bbc7d4;
+    background-color: #e4edf7;
+    font-size: 1vw;
+    min-width: 12vw;
+    max-width: 17vw;
+    min-height: 2vw;
+    padding: 0.5vw;
+    font-family: sans-serif;
+}
+button{
+    border-radius: 1.2vw;
+    border-width: 0;
+    background-color: #22cdd3;
+    font-size: 1.2vw;
+    padding: 1vw;
+    min-width: 6vw;
+    max-width: 8vw;
+    min-height: 1.6vw;
+    max-height: 2.7vw;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    color: #052249;
+}
+button:hover{
+    background-color: #0c97c2;
+}
+#resultado{
+    font-family: sans-serif;
+    font-size: 1.5vw;
+    margin-top: 0.2vw;
+    color: #0b6164;
+}
+#numeroresultado{
+    font-family: sans-serif;
+    font-size: 5vw;
+    color: #22cdd3;
+    margin: 0;
+    margin-top: 2vw;
+}
